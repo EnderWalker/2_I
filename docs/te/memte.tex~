@@ -34,7 +34,7 @@
 \newcommand{\AND}{\textbf{y} }
 \newcommand{\OR}{\textbf{o} }
 
-%%%%%%%%%%%%%%%%% Creamos un entorno para listar c贸digo fuente %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%% Creamos un entorno para listar c骴igo fuente %%%%%%%%%%%%%%%
 \newenvironment{sourcecode}
 {\begin{list}{}{\setlength{\leftmargin}{1em}}\item\scriptsize\bfseries}
 {\end{list}}
@@ -130,9 +130,9 @@
 
 \pagestyle{myheadings} %my head defined by markboth or markright
 % No funciona bien \markboth sin "twoside" en \documentclass, pero al
-% ponerlo se dan un mont贸n de errores de underfull \vbox, con lo que no se
+% ponerlo se dan un mont髇 de errores de underfull \vbox, con lo que no se
 % ha puesto.
-\markboth{Nombre del alumno}{T铆tulo del trabajo}
+\markboth{Nombre del alumno}{T韙ulo del trabajo}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Numeracion en romanos
@@ -164,13 +164,13 @@
 \setlength{\parindent}{5mm}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Motivaci贸n y objetivos}
+\chapter{Motivaci髇 y objetivos}
 \label{chapter:obj}
 
 \input{tex/cap1.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Fundamentos te贸ricos}
+\chapter{Fundamentos te髍icos}
 \label{chapter:teo}
 
 \input{tex/cap2.tex}
@@ -194,12 +194,12 @@
 \thispagestyle{empty}
 \begin{appendix}
 
-\chapter{T铆tulo del Ap茅ndice 1}
+\chapter{T韙ulo del Ap閚dice 1}
 \label{appendix:1}
 
 \input{tex/apendice1.tex}
 
-\chapter{T铆tulo del Ap茅ndice 2}
+\chapter{T韙ulo del Ap閚dice 2}
 \label{appendix:2}
 
 \input{tex/apendice2.tex}
@@ -207,7 +207,7 @@
 \end{appendix}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\addcontentsline{toc}{chapter}{Bibliograf铆a}
+\addcontentsline{toc}{chapter}{Bibliograf韆}
 \bibliographystyle{plain}
 
 
